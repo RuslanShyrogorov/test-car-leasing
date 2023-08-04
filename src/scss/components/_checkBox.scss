@@ -1,0 +1,53 @@
+.wrapper-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+.slider {
+  width: 28px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border: 1px solid $gray-light;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.slider::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: $gray-light;
+  transform: translateX(0);
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.checkbox:checked + .slider::before {
+  transform: translateX(14px);
+  background-color: $orange;
+}
+
+.checkbox:checked + .slider {
+  border: 1px solid $orange;
+}
+
+.checkbox:checked ~ .checkbox-text {
+  color: $orange;
+}
+
+.checkbox:hover ~ .checkbox-text {
+  color: $orange;
+}
+
+.checkbox-text {
+  margin-left: 16px;
+}

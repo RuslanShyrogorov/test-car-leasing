@@ -1,0 +1,82 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "img": "https://img.mercedes-benz-kiev.com/data/lineup/g-class/new/mercedes-amg-g-63-1440-10.jpg",
+      "brand": "Mercedes-Benz G ",
+      "model": "63 AMG",
+      "engine": "бензин",
+      "transmission": "автомат",
+      "power": "585",
+      "cost": "19956000",
+      "economy": "4097277",
+      "VAT": "4097277",
+      "payment": "248381"
+    },
+    {
+      "id": "2",
+      "img": "https://img.mercedes-benz-kiev.com/data/lineup/g-class/new/mercedes-amg-g-63-1440-3.jpg",
+      "brand": "Mercedes-Benz G ",
+      "model": "63 AMG",
+      "engine": "бензин",
+      "transmission": "автомат",
+      "power": "585",
+      "cost": "19956000",
+      "economy": "4097277",
+      "VAT": "4097277",
+      "payment": "248381"
+    },
+    {
+      "id": "3",
+      "img": "https://img.mercedes-benz-kiev.com/data/lineup/g-class/new/mercedes-amg-g-63-1440-11.jpg",
+      "brand": "Mercedes-Benz G ",
+      "model": "63 AMG",
+      "engine": "бензин",
+      "transmission": "автомат",
+      "power": "585",
+      "cost": "19956000",
+      "economy": "4097277",
+      "VAT": "4097277",
+      "payment": "248381"
+    },
+    {
+      "id": "4",
+      "img": "https://img.mercedes-benz-kiev.com/data/lineup/g-class/new/mercedes-benz-g-class-1440-37.jpg",
+      "brand": "Mercedes-Benz G ",
+      "model": "63 AMG",
+      "engine": "бензин",
+      "transmission": "автомат",
+      "power": "585",
+      "cost": "19956000",
+      "economy": "4097277",
+      "VAT": "4097277",
+      "payment": "248381"
+    },
+    {
+      "id": "5",
+      "img": "https://img.mercedes-benz-kiev.com/data/lineup/g-class/new/mercedes-benz-g-class-1440-34.jpg",
+      "brand": "Mercedes-Benz G ",
+      "model": "63 AMG",
+      "engine": "бензин",
+      "transmission": "автомат",
+      "power": "585",
+      "cost": "19956000",
+      "economy": "4097277",
+      "VAT": "4097277",
+      "payment": "248381"
+    },
+    {
+      "id": "6",
+      "img": "https://img.mercedes-benz-kiev.com/data/lineup/g-class/new/mercedes-amg-g-63-1440-4.jpg",
+      "brand": "Mercedes-Benz G ",
+      "model": "63 AMG",
+      "engine": "бензин",
+      "transmission": "автомат",
+      "power": "585",
+      "cost": "19956000",
+      "economy": "4097277",
+      "VAT": "4097277",
+      "payment": "248381"
+    }
+  ]
+}

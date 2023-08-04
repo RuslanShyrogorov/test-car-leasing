@@ -1,0 +1,35 @@
+@import '../utils/variables';
+.button {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  border: 0px solid transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: $orange;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  &-card {
+    /* border: 0px solid transparent; */
+    padding: 24px 62px;
+    color: #ffffff;
+    background-color: $gray;
+    min-width: 300px;
+  }
+
+  &-app {
+    color: $gray;
+    border: 1px solid $gray;
+    background-color: #ffffff;
+    padding: 24px 148px;
+    margin: 64px 0px;
+
+    &:hover {
+      border: 1px solid $orange;
+    }
+  }
+}

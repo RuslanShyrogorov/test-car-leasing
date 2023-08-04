@@ -1,0 +1,86 @@
+@import '../utils/variables';
+
+.card {
+  display: flex;
+  border-top: solid 1px $gray-border;
+  padding-top: 34px;
+
+  &:last-child {
+    border-bottom: solid 1px $gray-border;
+    padding-bottom: 40px;
+  }
+
+  &-img {
+    width: 270px;
+    height: 203px;
+  }
+
+  &-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+    &_light {
+      font-size: 24px;
+      font-weight: 700;
+      color: $gray-light;
+      margin-bottom: 67px;
+    }
+  }
+
+  &-description {
+    flex-direction: columns;
+
+    &_name {
+      width: 206px;
+      margin-left: 30px;
+    }
+
+    &_specifications {
+      width: 131px;
+      margin-left: 214px;
+    }
+  }
+
+  &-price {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 50px;
+
+    &_item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &_desc {
+      width: 150px;
+    }
+
+    &_cost {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  &-payment {
+    margin-left: 270px;
+
+    &_desc {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    &_cost {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 58px;
+    }
+  }
+}
